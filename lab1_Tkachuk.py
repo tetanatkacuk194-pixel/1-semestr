@@ -1,22 +1,22 @@
 print("Hello,World!")
-a=10
-b=3.14
-c="Hello"
-d=True
+i=10
+f=3.14
+s="Hello"
+b=True
 e=False
-f = [1, 2, 3]
-g = (1, 2, 3)
-h = {"name": "Тетяна", "age": 15}
-i = {1, 2, 3}
-print(a, type(a))
-print(b, type(b))
-print(c, type(c))
-print(d, type(d))
+l=[1, 2, 3]
+t=(1, 2, 3)
+d={"name": "Тетяна", "age": 15}
+c={1, 2, 3}
+print(i, type(a))
+print(f, type(b))
+print(s, type(c))
+print(b, type(d))
 print(e, type(e))
-print(f, type(f))
-print(g, type(g))
-print(h, type(h))
-print(i, type(i))
+print(l, type(f))
+print(t, type(g))
+print(d, type(h))
+print(c, type(i))
 x=10
 y=3
 print(x+y)
