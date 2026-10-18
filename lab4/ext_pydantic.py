@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class Course(BaseModel): # Створює нове правило для перевірки інформації про навальний курс
+class Course(BaseModel): # Створює нове правило для перевірки інформації про навчальний курс
     title: str
     code: int
 
